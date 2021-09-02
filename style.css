@@ -1,0 +1,14 @@
+/* custom css  */
+
+.displayHeight {
+    min-height: 20.9vh;
+    width: 100%;
+}
+
+.spin {
+    display: none;
+    height: 10rem;
+    width: 16rem;
+    filter: grayscale(1);
+    margin-top: -9.5rem;
+}
