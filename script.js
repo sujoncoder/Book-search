@@ -16,7 +16,7 @@ const searchBooks = () => {
         document.getElementById('cardContainer').textContent = '';
         document.getElementById('totalSearch').innerText = '';
         input.value = '';
-        const url = `http://openlibrary.org/search.json?q=${inputText}`;
+        const url = `https://openlibrary.org/search.json?q=${inputText}`;
         fetch(url)
             .then(res => res.json())
             .then(data => displayResult(data.docs));
